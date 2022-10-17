@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>软件体系风格</title>
+</head>
+<body>
+<form action="" method="get" name="forName">
+    <h3>选择一种软件体系风格</h3>
+    <input type="radio" name="style" value="1" id="1"><label for="1">主程序-子程序</label><br>
+    <input type="radio" name="style" value="2" id="2"><label for="2">面向对象</label><br>
+    <input type="radio" name="style" value="3" id="3"><label for="3">事件系统</label><br>
+    <input type="radio" name="style" value="4" id="4"><label for="4">管道-过滤</label><br>
+    <input type="button" id="btn" value="确定">
+</form>
+<img src="https://img-blog.csdnimg.cn/20201209233858758.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg1MzA5Nw==,size_16,color_FFFFFF,t_70#pic_center"
+     id="m1" name="msg" alt="主程序-子程序" style='display:none'>
+<img src="https://img-blog.csdnimg.cn/20201209233922504.png#pic_center"
+     id="m2" name="msg" alt="面向对象" style='display:none'>
+<img src="https://img-blog.csdnimg.cn/20201209233936983.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg1MzA5Nw==,size_16,color_FFFFFF,t_70#pic_center"
+     id="m3" name="msg" alt="事件系统" style='display:none'>
+<img src="https://img-blog.csdnimg.cn/20201209233949962.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg1MzA5Nw==,size_16,color_FFFFFF,t_70#pic_center"
+     id="m4" name="msg" alt="管道-过滤" style='display:none'>
+<form action="/claim/GcRiskClaimServlet.do?param=file" enctype="multipart/form-data" method="post">
+    <input type="file" name="file"/>
+    <input type="submit"  value="提交"/>
+</form>
+<a href="../resources/output.txt">查看结果</a>
+<script>
+    document.getElementById("btn").onclick=function (){
+        let style=document.getElementsByName("style")
+        let msg=document.getElementsByName("msg")
+        for(let i=0;i<style.length;i++){
+            if(style[i].checked){
+                var value=style[i].value
+            }
+            msg[i].style='display:none'
+        }
+        if(value==1){
+            document.getElementById("m1").style=''
+        }else if(value==2){
+            document.getElementById("m2").style=''
+        }else if(value==3){
+            document.getElementById("m3").style=''
+        }else if(value==4){
+            document.getElementById("m4").style=''
+        }
+    }
+</script>
+</body>
+</html>

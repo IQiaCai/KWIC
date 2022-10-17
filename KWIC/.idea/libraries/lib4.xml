@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../springmvc/01_quickStart/target/01_quickStart-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../springmvc/01_quickStart/target/01_quickStart-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../springmvc/01_quickStart/target/01_quickStart-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../springmvc/01_quickStart/target/01_quickStart-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../springmvc/01_quickStart/target/01_quickStart-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../springmvc/01_quickStart/target/01_quickStart-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../springmvc/01_quickStart/target/01_quickStart-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../springmvc/01_quickStart/target/01_quickStart-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.10.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
